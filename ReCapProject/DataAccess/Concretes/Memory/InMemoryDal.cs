@@ -36,13 +36,13 @@ namespace DataAccess.Concretes.Memory
         public void Update(Car car)
         {
             var updatedCar = cars.SingleOrDefault(c => c.Id == car.Id);
-            
-            car.Id = updatedCar.Id;
-            car.BrandId = updatedCar.BrandId;
-            car.ColorId = updatedCar.ColorId;
-            car.DailyPrice = updatedCar.DailyPrice;
-            car.Description = updatedCar.Description;
-            car.ModelYear = updatedCar.ModelYear;
+
+            updatedCar.Id = car.Id;
+            updatedCar.BrandId = car.BrandId;
+            updatedCar.ColorId = car.ColorId;
+            updatedCar.DailyPrice = car.DailyPrice;
+            updatedCar.Description = car.Description;
+            updatedCar.ModelYear = car.ModelYear;
         }
         public List<Car> GetAll()
         {
