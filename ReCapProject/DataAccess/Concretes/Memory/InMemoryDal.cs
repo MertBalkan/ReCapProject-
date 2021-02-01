@@ -9,10 +9,10 @@ namespace DataAccess.Concretes.Memory
 {
     public class InMemoryDal : ICarDal
     {
-        List<Car> cars;
+        private List<Car> _cars;
         public InMemoryDal()
         {
-            cars = new List<Car> 
+            _cars = new List<Car> 
             { 
                 //1-> Black, 2-> Red, 3->Green, 4-> Blue
                 new Car { Id = 1, BrandId = 1, ColorId = 1, DailyPrice = 200, Description = "Toyota1", ModelYear = "2016"}, 
@@ -25,17 +25,17 @@ namespace DataAccess.Concretes.Memory
         }
         public void Add(Car car)
         {
-            cars.Add(car);
+            _cars.Add(car);
         }
 
         public void Delete(Car car)
         {
-            var deletedCar = cars.SingleOrDefault(c => c.Id == car.Id);
-            cars.Remove(deletedCar);
+            var deletedCar = _cars.SingleOrDefault(c => c.Id == car.Id);
+            _cars.Remove(deletedCar);
         }
         public void Update(Car car)
         {
-            var updatedCar = cars.SingleOrDefault(c => c.Id == car.Id);
+            var updatedCar = _cars.SingleOrDefault(c => c.Id == car.Id);
 
             updatedCar.Id = car.Id;
             updatedCar.BrandId = car.BrandId;
@@ -46,12 +46,11 @@ namespace DataAccess.Concretes.Memory
         }
         public List<Car> GetAll()
         {
-            return cars;            
+            return _cars;            
         }
-
         public List<Car> GetById(int id)
         {
-            var getCarById = cars.Where(c => c.Id == id).ToList();
+            var getCarById = _cars.Where(c => c.Id == id).ToList();
             return getCarById;
         }
     }
