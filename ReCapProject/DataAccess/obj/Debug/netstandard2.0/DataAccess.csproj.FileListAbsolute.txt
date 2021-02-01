@@ -1,0 +1,12 @@
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\mert_\OneDrive\Belgeler\GitHub\ReCapProject-\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
